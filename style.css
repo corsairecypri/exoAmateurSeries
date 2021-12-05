@@ -1,0 +1,36 @@
+/*Le CSS de la présentation et de la section générée*/
+
+.presentation,
+section {
+  margin-left: 1rem;
+  padding: 1rem;
+
+  width: 40vw;
+  border-radius: 35px;
+}
+
+.presentation {
+  border: 2px solid blue;
+}
+
+section {
+  border: 2px solid orangered;
+}
+
+/*Le CSS du formulaire*/
+
+form {
+  margin: 2rem 3rem;
+}
+
+input {
+  margin-bottom: 1rem;
+}
+
+/*Le CSS des spans d'avertissement*/
+
+span {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline red;
+}

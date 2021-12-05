@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <p class="presentation">
+        Bonjour...<br /><br>
+
+        Vous êtes un grand amateur de séries mais vous vous demandez souvent <br>
+        combien de temps va vous prendre le visionnage d'une sitcom de plus de 6 <br>
+        saisons ou un anime de plus de 150 épisodes ? <br /><br>
+
+        Dans ce cas ce programme est fait pour vous... <br /><br>
+
+        (Note : je n'encourage pas le binge-watching. Je souhaite juste que ce <br>
+        programme vous permette de vous informer sur la durée de visonnage d'une <br>
+        série en connaissance de cause...)
+    </p>
+
+    <form>
+      
+      <div class="container">
+        <label>Combien de minutes dure un épisode ?</label>
+
+        <!--Pour sélectionner la valeur choisie, il faut utiliser "name" et non "class"-->
+        <input type="number" min="10" max="40" name="dureeEpisode" required />
+      </div>
+
+      <div class="container">
+        <label>Combien d'épisodes dure votre série ?</label>
+
+        <input
+          type="number"
+          min="1"
+          max="2000"
+          name="nombreEpisodes"
+          required
+        />
+      </div>
+
+      <input type="submit" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
